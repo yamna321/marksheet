@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marksheet</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Marksheet</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Student Marksheet</h1>
+            <form id="marksheet-form">
+                <div class="form-group">
+                    <label for="name">Student Name:</label>
+                    <input type="text" id="name" placeholder="Enter student name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="maths">Maths:</label>
+                    <input type="number" id="maths" placeholder="Enter marks for Maths" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="english">English:</label>
+                    <input type="number" id="english" placeholder="Enter marks for English" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="science">Science:</label>
+                    <input type="number" id="science" placeholder="Enter marks for Science" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="history">History:</label>
+                    <input type="number" id="history" placeholder="Enter marks for History" required>
+                </div>
+                
+                <button type="button" onclick="calculateMarksheet()">Result</button>
+            </form>
+            
+            <div id="result" class="result">
+                <!-- Marksheet result will be shown here -->
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
+    <script src="./assests/js/app.js"></script>
+</body>
+</html>
